@@ -1,0 +1,11 @@
+// First-class function
+// Podem estar em qualquer lugar, incluive, como parâmetro de outras funções
+// A função poderá ser entendida como uma variável
+
+const sayMyName = () => console.log("Mayk");
+const runFunction = (fn) => fn();
+
+runFunction(sayMyName);
+runFunction(() => console.log("discover"));
+
+console.log(runFunction(Math.random));

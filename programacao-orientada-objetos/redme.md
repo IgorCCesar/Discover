@@ -44,3 +44,11 @@
   - Recriaremos então um método (ou mais) da classe herdada.
 
   - Polimorfismo significa muitas formas
+
+* abstração
+
+  - template ou identidade de uma classe que será construída no futuro
+
+  - Atributos e métodos podem ser criados na classe de abstração (Superclasse) MAS
+
+  - A implementação dos métodos e atributos, só pooderá ser feita na classe que irá herdar essa abstração
